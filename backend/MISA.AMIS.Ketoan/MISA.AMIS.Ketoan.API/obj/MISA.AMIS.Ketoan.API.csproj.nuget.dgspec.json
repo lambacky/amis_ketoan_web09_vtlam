@@ -1,0 +1,279 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\ACER\\amis_ketoan_web09_vtlam\\backend\\MISA.AMIS.Ketoan\\MISA.AMIS.Ketoan.API\\MISA.AMIS.Ketoan.API.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\ACER\\amis_ketoan_web09_vtlam\\backend\\MISA.AMIS.Ketoan\\MISA.AMIS.Ketoan.API\\MISA.AMIS.Ketoan.API.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\ACER\\amis_ketoan_web09_vtlam\\backend\\MISA.AMIS.Ketoan\\MISA.AMIS.Ketoan.API\\MISA.AMIS.Ketoan.API.csproj",
+        "projectName": "MISA.AMIS.Ketoan.API",
+        "projectPath": "C:\\Users\\ACER\\amis_ketoan_web09_vtlam\\backend\\MISA.AMIS.Ketoan\\MISA.AMIS.Ketoan.API\\MISA.AMIS.Ketoan.API.csproj",
+        "packagesPath": "C:\\Users\\ACER\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ACER\\amis_ketoan_web09_vtlam\\backend\\MISA.AMIS.Ketoan\\MISA.AMIS.Ketoan.API\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\ACER\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\ACER\\amis_ketoan_web09_vtlam\\backend\\MISA.AMIS.Ketoan\\MISA.AMIS.Ketoan.BL\\MISA.AMIS.Ketoan.BL.csproj": {
+                "projectPath": "C:\\Users\\ACER\\amis_ketoan_web09_vtlam\\backend\\MISA.AMIS.Ketoan\\MISA.AMIS.Ketoan.BL\\MISA.AMIS.Ketoan.BL.csproj"
+              },
+              "C:\\Users\\ACER\\amis_ketoan_web09_vtlam\\backend\\MISA.AMIS.Ketoan\\MISA.AMIS.Ketoan.Common\\MISA.AMIS.Ketoan.Common.csproj": {
+                "projectPath": "C:\\Users\\ACER\\amis_ketoan_web09_vtlam\\backend\\MISA.AMIS.Ketoan\\MISA.AMIS.Ketoan.Common\\MISA.AMIS.Ketoan.Common.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Dapper": {
+              "target": "Package",
+              "version": "[2.0.123, )"
+            },
+            "MySqlConnector": {
+              "target": "Package",
+              "version": "[2.1.13, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.2.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\ACER\\amis_ketoan_web09_vtlam\\backend\\MISA.AMIS.Ketoan\\MISA.AMIS.Ketoan.BL\\MISA.AMIS.Ketoan.BL.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\ACER\\amis_ketoan_web09_vtlam\\backend\\MISA.AMIS.Ketoan\\MISA.AMIS.Ketoan.BL\\MISA.AMIS.Ketoan.BL.csproj",
+        "projectName": "MISA.AMIS.Ketoan.BL",
+        "projectPath": "C:\\Users\\ACER\\amis_ketoan_web09_vtlam\\backend\\MISA.AMIS.Ketoan\\MISA.AMIS.Ketoan.BL\\MISA.AMIS.Ketoan.BL.csproj",
+        "packagesPath": "C:\\Users\\ACER\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ACER\\amis_ketoan_web09_vtlam\\backend\\MISA.AMIS.Ketoan\\MISA.AMIS.Ketoan.BL\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\ACER\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\ACER\\amis_ketoan_web09_vtlam\\backend\\MISA.AMIS.Ketoan\\MISA.AMIS.Ketoan.Common\\MISA.AMIS.Ketoan.Common.csproj": {
+                "projectPath": "C:\\Users\\ACER\\amis_ketoan_web09_vtlam\\backend\\MISA.AMIS.Ketoan\\MISA.AMIS.Ketoan.Common\\MISA.AMIS.Ketoan.Common.csproj"
+              },
+              "C:\\Users\\ACER\\amis_ketoan_web09_vtlam\\backend\\MISA.AMIS.Ketoan\\MISA.AMIS.Ketoan.DL\\MISA.AMIS.Ketoan.DL.csproj": {
+                "projectPath": "C:\\Users\\ACER\\amis_ketoan_web09_vtlam\\backend\\MISA.AMIS.Ketoan\\MISA.AMIS.Ketoan.DL\\MISA.AMIS.Ketoan.DL.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "EPPlus": {
+              "target": "Package",
+              "version": "[6.1.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\ACER\\amis_ketoan_web09_vtlam\\backend\\MISA.AMIS.Ketoan\\MISA.AMIS.Ketoan.Common\\MISA.AMIS.Ketoan.Common.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\ACER\\amis_ketoan_web09_vtlam\\backend\\MISA.AMIS.Ketoan\\MISA.AMIS.Ketoan.Common\\MISA.AMIS.Ketoan.Common.csproj",
+        "projectName": "MISA.AMIS.Ketoan.Common",
+        "projectPath": "C:\\Users\\ACER\\amis_ketoan_web09_vtlam\\backend\\MISA.AMIS.Ketoan\\MISA.AMIS.Ketoan.Common\\MISA.AMIS.Ketoan.Common.csproj",
+        "packagesPath": "C:\\Users\\ACER\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ACER\\amis_ketoan_web09_vtlam\\backend\\MISA.AMIS.Ketoan\\MISA.AMIS.Ketoan.Common\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\ACER\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\ACER\\amis_ketoan_web09_vtlam\\backend\\MISA.AMIS.Ketoan\\MISA.AMIS.Ketoan.DL\\MISA.AMIS.Ketoan.DL.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\ACER\\amis_ketoan_web09_vtlam\\backend\\MISA.AMIS.Ketoan\\MISA.AMIS.Ketoan.DL\\MISA.AMIS.Ketoan.DL.csproj",
+        "projectName": "MISA.AMIS.Ketoan.DL",
+        "projectPath": "C:\\Users\\ACER\\amis_ketoan_web09_vtlam\\backend\\MISA.AMIS.Ketoan\\MISA.AMIS.Ketoan.DL\\MISA.AMIS.Ketoan.DL.csproj",
+        "packagesPath": "C:\\Users\\ACER\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ACER\\amis_ketoan_web09_vtlam\\backend\\MISA.AMIS.Ketoan\\MISA.AMIS.Ketoan.DL\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\ACER\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\ACER\\amis_ketoan_web09_vtlam\\backend\\MISA.AMIS.Ketoan\\MISA.AMIS.Ketoan.Common\\MISA.AMIS.Ketoan.Common.csproj": {
+                "projectPath": "C:\\Users\\ACER\\amis_ketoan_web09_vtlam\\backend\\MISA.AMIS.Ketoan\\MISA.AMIS.Ketoan.Common\\MISA.AMIS.Ketoan.Common.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Dapper": {
+              "target": "Package",
+              "version": "[2.0.123, )"
+            },
+            "MySqlConnector": {
+              "target": "Package",
+              "version": "[2.1.13, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
