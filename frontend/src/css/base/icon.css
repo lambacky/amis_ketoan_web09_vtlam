@@ -1,0 +1,164 @@
+.icon {
+    width: 24px;
+    height: 24px;
+    background-image: url(../../assets/img/Sprites.64af8f61.svg);
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+
+.icon-dashboard {
+    background-position: -30px -1628px;
+}
+
+.icon-cash {
+    background-position: -73px -1628px;
+}
+
+.icon-bank {
+    background-position: -117px -1628px;
+}
+
+.icon-buy {
+    background-position: -161px -1628px;
+}
+
+.icon-sale {
+    background-position: -204px -1628px;
+}
+
+.icon-invoice {
+    background-position: -249px -1628px;
+}
+
+.icon-stock {
+    background-position: -291px -1628px;
+}
+
+.icon-tools {
+    background-position: -336px -1628px;
+}
+
+.icon-fixed-assets {
+    background-position: -378px -1630px;
+}
+
+.icon-tax {
+    background-position: -423px -1630px;
+}
+
+.icon-price {
+    background-position: -467px -1628px;
+}
+
+.icon-general {
+    background-position: -510px -1630px;
+}
+
+.icon-budget {
+    background-position: -378px -1659px;
+}
+
+.icon-report {
+    background-position: -547px -1628px;
+}
+
+.icon-finance {
+    background-position: -204px -1664px;
+}
+
+.icon-three-stripes {
+    background-position: -843px -30px;
+}
+
+.icon-chevron-down-bold {
+    background-position: -1123px -357px;
+}
+
+.icon-chevron-down {
+    background-position: -460px -404px;
+}
+
+.icon-bell {
+    background-position: -787px -30px;
+}
+
+.icon-refresh {
+    background-position: -418px -196px;
+    width:36px;
+    height:36px;
+}
+
+.icon-refresh:hover {
+    background-position: -1092px -83px;
+    width:36px;
+    height:36px;
+}
+
+.icon-excel {
+    background-position: -700px -195px;
+    width:36px;
+    height:36px;
+}
+.icon-excel:hover {
+    background-position: -700px -251px;
+    width:36px;
+    height:36px;
+}
+
+.icon-search {
+    background-position: -990px -358px;
+}
+
+.icon-checkbox-active {
+    background-position: -1224px -360px;
+}
+
+.icon-arrow-down-blue {
+    background-position: -893px -356px;
+}
+
+.icon-arrow-dropdown {
+    background-position: -560px -358px;
+}
+
+.icon-help {
+    background-position: -89px -144px;
+}
+
+.icon-close {
+    background-position: -144px -144px;
+}
+
+.icon-danger {
+    background-position: -29px -960px;
+    width:36px;
+    height:36px;
+}
+
+.icon-question {
+    background-position: -832px -462px;
+    width:36px;
+    height:36px;
+}
+
+.icon-warning {
+    background-position: -599px -464px;
+    width:36px;
+    height:36px;
+}
+
+.icon-success {
+    background-position: -507px -404px;
+}
+
+.icon-close-small{
+    background-position: -1175px -360px;
+    width:16px;
+    height:16px;
+}
+.icon-arrow-left{
+    background-position: -28px -356px;
+}
+.icon-arrow-right{
+    background-position: -76px -356px;
+}

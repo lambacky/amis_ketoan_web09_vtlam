@@ -1,0 +1,114 @@
+.table-wrapper {
+    overflow-x:auto;
+    max-height:456px;
+    border-radius: 4px;
+    border:1px solid #E0E0E0;
+}
+.table-wrapper::-webkit-scrollbar {
+    width:0;
+    height:12px;
+}
+.table-wrapper::-webkit-scrollbar-thumb {
+    background: #BDBDBD;
+}
+table{
+    width:100%;
+    border-spacing: 0;
+}
+
+tbody tr:hover td {
+    background-color: #F5F5F5;
+    cursor:pointer;
+}
+
+th, td{
+    border-bottom: 1px solid #E0E0E0;
+    height:48px;
+    text-align:left;
+    padding: 0 16px;
+}
+
+th{
+    background-color: #EEEEEE;
+    position:sticky;
+    top:0;
+    font-family: Noto-Sans-SemiBold;
+    z-index:200;
+}
+
+td{
+    background-color: white;
+    position:relative;
+}
+.row-checked td, .row-checked:hover td{
+    background-color: #E7F5EC;
+}
+th:first-child, th:nth-child(2){
+    z-index:201;
+}
+td:first-child, td:nth-child(2){
+    z-index:200;
+}
+th:first-child, td:first-child {
+    position:sticky;
+    left:0;
+    padding-right:0;
+}
+th:nth-child(2),td:nth-child(2){
+    border-right: 1px solid #E0E0E0;
+    position:sticky;
+    left:43px;
+}
+th:last-child, td:last-child{
+    border-left: 1px solid #E0E0E0;
+    position:sticky;
+    right:0;
+}
+
+
+th.date, td.date, th.function {
+    text-align:center;
+}
+
+table .table-function{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    gap:6px;
+    color:blue;
+}
+
+.modify{
+    cursor:pointer;
+}
+
+.loading {
+    background-color: #EEEEEE;
+    height:14px;
+}
+.loading::after{
+    position: absolute;
+    transform: translateY(-50%);
+    top: 50%;
+    left: 0;
+    content: "";
+    display: block;
+    height: 14px;
+    width:100%;
+    background-image: linear-gradient( 100deg, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.5) 60%, rgba(255, 255, 255, 0) 80% );
+    background-size: 200px 24px;
+    background-position: -100px 0;
+    background-repeat: no-repeat;
+    animation: loading 1s infinite;
+}
+
+@keyframes loading {
+    40% {
+        background-position:
+            100% 0;
+    }
+    100% {
+        background-position:
+            100% 0;
+    }
+}

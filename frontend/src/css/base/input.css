@@ -1,0 +1,83 @@
+/* TEXT INPUT */
+.input-wrapper{
+    display:flex;
+    flex-direction: column;
+    gap:8px;
+    position: relative;
+}
+.dialog .input-wrapper{
+    padding-bottom: 24px;
+}
+
+.input-label{
+    font-family:Noto-Sans-SemiBold;
+}
+
+.input {
+    padding: 0 12px;
+    border: 1px solid #E0E0E0;
+    border-radius: 4px;
+    height: 36px;
+    outline: unset;
+    width:100%;
+}
+
+.input-with-icon, .input-date{
+    padding-right:8px;
+}
+
+.input::placeholder {
+    color: #9E9E9E;
+    font-family:Noto-Sans-Italic;
+}
+
+.input:hover {
+    outline: 1px solid #BDBDBD;
+}
+
+.input:focus {
+    border: 1px solid #409330;
+}
+
+
+.require-mark {
+    color: red;
+    padding-left:2px;
+}
+
+.input-error, .input-error:focus {
+    border-color: red
+}
+.input-error-mess{
+    color:red;
+    position:absolute;
+    bottom:4px;
+    font-size:12px;
+    width:100%;
+    overflow:hidden;
+    white-space:nowrap;
+    text-overflow: ellipsis;
+}
+
+.combobox .input-error-mess{
+    bottom:-20px;
+}
+
+/* CHECKBOX INPUT */
+.input-checkbox-list{
+    display:flex;
+    align-items: center;
+    height:36px;
+    gap:12px;
+}
+.input-checkbox-wrapper{
+    display: flex;
+    align-items: center;
+    gap:8px;
+}
+
+.input-checkbox {
+    width:20px;
+    height:20px;
+    accent-color:#409330;
+}

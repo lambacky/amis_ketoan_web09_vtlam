@@ -1,0 +1,41 @@
+.header {
+    height:56px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 16px;
+    background-color: white;
+}
+
+.navbar-left, .navbar-right, .navbar-branch, .navbar-user {
+    display: flex;
+    align-items: center;
+}
+
+.navbar-left, .navbar-branch{
+    gap:16px;
+}
+
+.navbar-right {
+    gap:24px;
+}
+
+.navbar-user{
+    gap: 8px;
+}
+
+.branch-name, .user-name {
+    font-family: Noto-Sans-SemiBold;
+}
+
+.user-image img {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+}
+
+@media screen and (max-width: 1280px) {
+    .header .icon-three-stripes {
+        display:none;
+    }
+}
